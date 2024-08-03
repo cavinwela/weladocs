@@ -1,0 +1,10 @@
+[book]
+authors = ["cavinpabua"]
+language = "en"
+multilingual = false
+src = "src"
+title = "WelaBook"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"

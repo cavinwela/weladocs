@@ -1,0 +1,17 @@
+{
+    "name": "welabook",
+    "version": "1.0.0",
+    "description": "Wela Book",
+    "scripts": {
+        "dev": "node detect.js | xargs -I {} npm run dev-{}",
+        "dev-linux": "./mdbook serve --open -p 4545",
+        "dev-mac": "./mdbook-apple serve --open -p 4545",
+        "build": "node detect.js | xargs -I {} npm run build-{}",
+        "build-linux": "./mdbook build",
+        "build-mac": "./mdbook-apple build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
+
